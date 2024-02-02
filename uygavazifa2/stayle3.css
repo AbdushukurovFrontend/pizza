@@ -1,0 +1,428 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.img-stil-bacground {
+  background-image: url(./nachodominguezargenta511475unsplashmin.jpg);
+  width: 100%;
+  height: 740px;
+}
+.center button {
+  /* cursor: pointer;
+  padding: 20px;
+  width: 400px;
+  height: 60px;
+  text-align: center;
+  background-color: white;
+  color: black;
+  border: none;
+  font-size: 20px;
+  margin-top: 40px; */
+  border: none;
+  background-image: none;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-size: 1.125rem;
+  margin: 42px auto 60px 0;
+  padding: 16px 30px;
+  transition: 0.2s;
+  border-radius: 50px;
+}
+.center button:hover {
+  transform: scaleX(1.1);
+  background-color: #d7ebc1;
+}
+.center h1 {
+  color: white;
+  font-family: "Alex Brush", cursive;
+  font-size: 6.25rem;
+  line-height: 1;
+  font-weight: 400;
+}
+.center p {
+  font-weight: 400;
+  line-height: 1.6;
+  font-size: 1.5rem;
+  color: #fff;
+  font-family: "Open Sans", sans-serif;
+  padding-top: 30px;
+  font-style: italic;
+}
+.center hr {
+  margin-top: 30px;
+  height: 8px;
+  transform-origin: left center;
+  width: 667px;
+  background-color: #ffffff;
+}
+.center {
+  padding-top: 80px;
+  margin-left: 200px;
+}
+.center img {
+  transition: 0.2s;
+}
+.center img:hover {
+  transform: scale(1.1);
+}
+.nest img {
+  height: 600px;
+  object-position: 100% 0%;
+  background-position: 100% 0%;
+  margin: 46px auto 0 0;
+}
+.nest h2 {
+  font-family: "Alex Brush", cursive;
+  line-height: 1.2;
+  font-size: 3rem;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-weight: 400;
+}
+.nest p {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  line-height: 1.6;
+  font-size: 1rem;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.l {
+  text-align: center;
+}
+.card {
+  margin-top: -370px;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+.c1 {
+  padding-left: 20px;
+  text-align: left;
+  font-family: "Open Sans", sans-serif;
+  background-color: rgba(255, 255, 255, 0.703);
+  width: 270px;
+  height: 300px;
+  opacity: 1;
+  transition: 0.2s;
+}
+.c1:hover {
+  transform: scale(1.1);
+}
+.c2 {
+  padding-left: 20px;
+  text-align: left;
+  font-family: "Open Sans", sans-serif;
+  background-color: rgba(255, 255, 255, 0.703);
+  width: 270px;
+  height: 300px;
+  opacity: 1;
+  transition: 0.2s;
+}
+.c2:hover {
+  transform: scale(1.1);
+}
+.c3 {
+  padding-left: 20px;
+  text-align: left;
+  font-family: "Open Sans", sans-serif;
+  background-color: rgba(255, 255, 255, 0.703);
+  width: 270px;
+  height: 300px;
+  opacity: 1;
+  transition: 0, 2s;
+}
+
+.c3:hover {
+  transform: scale(1.1);
+}
+.c1 img {
+  padding-top: 20px;
+  margin-top: -0px;
+  width: 80px;
+  height: 100px;
+}
+.c2 img {
+  padding-top: 20px;
+  margin-top: -0px;
+  width: 100px;
+  height: 100px;
+}
+.c3 img {
+  padding-top: 20px;
+  margin-top: -0px;
+  width: 90px;
+  height: 100px;
+}
+.c1 h6 {
+  padding-top: 15px;
+  line-height: 1.2;
+  font-size: 1.95rem;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 600;
+  color: #79a14e !important;
+}
+.c2 h6 {
+  padding-top: 15px;
+  line-height: 1.2;
+  font-size: 1.95rem;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 600;
+  color: #79a14e !important;
+}
+.c3 h6 {
+  padding-top: 15px;
+  line-height: 1.2;
+  font-size: 1.95rem;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 600;
+  color: #79a14e !important;
+}
+.c1 p {
+  font-family: "Open Sans", sans-serif;
+  font-size: 1rem;
+  line-height: 1.6;
+}
+.list2 {
+  padding-top: 100px;
+  display: flex;
+  justify-content: center;
+}
+.text {
+  text-align: center;
+  background-color: #e6f4d8;
+  width: 888px;
+  height: 521px;
+}
+.text h2 {
+  font-size: 4.25rem;
+  color: rgb(0, 0, 0);
+  font-family: "Alex Brush", cursive;
+  line-height: 1.2;
+  font-weight: 500;
+}
+.text hr {
+  width: 48px;
+  height: 3px;
+  transform-origin: right center 0;
+  margin: 5px auto 0;
+  background-color: #79a14e;
+}
+.text p {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  line-height: 1.6;
+  font-size: 1rem;
+}
+.cx img {
+  width: 334px;
+  height: 350px;
+  transition: 0.2s;
+}
+.cx img:hover {
+  transform: scale(1.1);
+}
+.flexc {
+  padding-top: 50px;
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+}
+.bur {
+  padding-left: 20px;
+  text-align: left;
+  margin-left: auto;
+  position: relative;
+  margin-top: -66px;
+  width: 269px;
+  min-height: 152px;
+  background-color: #d7ebc1;
+  transition: 2.2s;
+}
+
+.bur h2 {
+  font-size: 2.05rem;
+  font-family: "Open Sans", sans-serif;
+  line-height: 1.2;
+  padding-top: 15px;
+}
+.bur p {
+  padding-top: 15px;
+  font-family: "Open Sans", sans-serif;
+}
+.list3 {
+  background-image: url(https://images01.nicepage.com/c461c07a441a5d220e8feb1a/e4e20eda2798546aaab08a10/marinakhrapova347688unsplashmin.jpg);
+  width: 100%;
+  height: 700px;
+  margin-top: 200px;
+  object-fit: cover;
+  vertical-align: middle;
+  background-size: cover;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+}
+.list3 h2 {
+  font-weight: 400;
+  margin-top: 70px;
+  font-family: "Alex Brush";
+  font-size: 6rem;
+  margin: 17px 0 0;
+  color: #fff;
+}
+.list3 p {
+  font-family: "Open Sans", sans-serif;
+  color: #fff;
+  font-weight: 400;
+  line-height: 1.4;
+  font-size: 2.15rem;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.text4 {
+  margin-left: 80px;
+  padding-top: 60px;
+  padding-left: 200px;
+  width: 680px;
+}
+.text4 button {
+  border-radius: 50px;
+  cursor: pointer;
+  margin-top: 20px;
+  font-size: 18px;
+  width: 200px;
+  padding: 10px;
+  height: 45px;
+  color: #fff;
+  background-color: #79a14e;
+  transition: 0.2s;
+  border: none;
+}
+.text4 button:hover {
+  color: #fff;
+  transform: scaleX(1.1);
+  background-color: #abe66d;
+}
+
+.text5 {
+  padding-top: 80px;
+  text-align: center;
+  background-color: #e6f4d8;
+  width: 888px;
+  height: 521px;
+}
+.text5 h2 {
+  font-size: 4.25rem;
+  color: rgb(0, 0, 0);
+  font-family: "Alex Brush", cursive;
+  line-height: 1.2;
+  font-weight: 500;
+}
+.text5 hr {
+  width: 48px;
+  height: 3px;
+  transform-origin: right center 0;
+  margin: 5px auto 0;
+  background-color: #79a14e;
+}
+.text5 p {
+  padding-top: 20px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  line-height: 1.6;
+  font-size: 1rem;
+}
+.list5 {
+  display: flex;
+  justify-content: center;
+}
+.img-flex {
+  padding-top: 50px;
+  justify-content: center;
+  display: flex;
+  gap: 20px;
+  transition: 0.2s;
+}
+.img-flex :hover {
+  transform: scale(1.1);
+}
+.img-flex1 :hover {
+  transform: scale(1.1);
+}
+
+.img-flex1 {
+  padding-top: 20px;
+  justify-content: center;
+  display: flex;
+  gap: 20px;
+  transition: 0.2s;
+}
+.list6 {
+  margin-top: 400px;
+  background-image: url(./amosbarzeev138099unsplashmin.jpg);
+  object-fit: cover;
+  vertical-align: middle;
+  background-size: cover;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 500px;
+}
+.text7 {
+  padding-top: 50px;
+  margin-left: 250px;
+  width: 400px;
+}
+.text7 h1 {
+  font-weight: 400;
+  margin-top: 70px;
+  font-family: "Alex Brush";
+  font-size: 6rem;
+  margin: 17px 0 0;
+  color: #fff;
+}
+.text7 p {
+  color: #ffffff;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  line-height: 1.5;
+  font-size: 30px;
+}
+.input {
+  margin-top: 30px;
+  display: flex;
+  gap: 30px;
+}
+.input input {
+  color: #fff;
+  text-align: left;
+  height: 40px;
+  width: 200px;
+  padding: 20px;
+  border: none;
+}
+.input input:hover {
+  transform: scale(1.1);
+  background-color: #ffffff;
+}
+.im input {
+  font-size: 18px;
+  color: #fff;
+  width: 150px;
+  height: 40px;
+  padding: 10px;
+  background-color: #79a14e !important;
+}
+.im input:hover {
+  transform: scale(1.1);
+  background-color: #d7ebc1;
+}
+.list12 img {
+  width: 1400px;
+}
+.list13 {
+  height: 700px;
+  width: 100%;
+  background-image: url(./Untitled6min.jpg);
+}
